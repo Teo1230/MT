@@ -501,7 +501,7 @@ def parse_args():
     parser.add_argument("--output_dir", type=str, default="outputs_bert_multilabel")
 
     # 20 epoci by default
-    parser.add_argument("--epochs", type=int, default=20)
+    parser.add_argument("--epochs", type=int, default=100)
     parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--lr", type=float, default=2e-5)
     parser.add_argument("--weight_decay", type=float, default=0.01)
