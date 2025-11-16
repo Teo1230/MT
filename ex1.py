@@ -16,6 +16,7 @@ from sklearn.metrics import f1_score
 import matplotlib.pyplot as plt
 from tqdm import tqdm
 
+from torch.cuda.amp import autocast, GradScaler  # <-- pentru AMP
 
 MODEL_NAME = "dumitrescustefan/bert-base-romanian-cased-v1"
 
@@ -141,20 +142,32 @@ def train_one_epoch(
     scheduler,
     device,
     loss_fn,
+    use_amp: bool = False,
+    scaler: GradScaler = None,
 ):
     model.train()
     total_loss = 0.0
 
     for batch in tqdm(dataloader, desc="Train", leave=False):
-        input_ids = batch["input_ids"].to(device)
-        attention_mask = batch["attention_mask"].to(device)
-        labels = batch["labels"].to(device)
+        input_ids = batch["input_ids"].to(device, non_blocking=True)
+        attention_mask = batch["attention_mask"].to(device, non_blocking=True)
+        labels = batch["labels"].to(device, non_blocking=True)
 
         optimizer.zero_grad()
-        logits = model(input_ids=input_ids, attention_mask=attention_mask)
-        loss = loss_fn(logits, labels)
-        loss.backward()
-        optimizer.step()
+
+        if use_amp:
+            with autocast():
+                logits = model(input_ids=input_ids, attention_mask=attention_mask)
+                loss = loss_fn(logits, labels)
+            scaler.scale(loss).backward()
+            scaler.step(optimizer)
+            scaler.update()
+        else:
+            logits = model(input_ids=input_ids, attention_mask=attention_mask)
+            loss = loss_fn(logits, labels)
+            loss.backward()
+            optimizer.step()
+
         if scheduler is not None:
             scheduler.step()
 
@@ -179,9 +192,9 @@ def eval_model(
     all_preds = []
 
     for batch in tqdm(dataloader, desc="Eval", leave=False):
-        input_ids = batch["input_ids"].to(device)
-        attention_mask = batch["attention_mask"].to(device)
-        labels = batch["labels"].to(device)
+        input_ids = batch["input_ids"].to(device, non_blocking=True)
+        attention_mask = batch["attention_mask"].to(device, non_blocking=True)
+        labels = batch["labels"].to(device, non_blocking=True)
 
         logits = model(input_ids=input_ids, attention_mask=attention_mask)
         loss = loss_fn(logits, labels)
@@ -292,6 +305,7 @@ def run_bert_multilabel(args):
     model = EmojiBertClassifier(num_labels=num_labels)
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device: {device}")
     model.to(device)
 
     train_ds = Text2EmojiDataset(
@@ -319,9 +333,16 @@ def run_bert_multilabel(args):
         emoji_col=args.emoji_col,
     )
 
-    train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True)
-    valid_loader = DataLoader(valid_ds, batch_size=args.batch_size, shuffle=False)
-    test_loader = DataLoader(test_ds, batch_size=args.batch_size, shuffle=False)
+    # DataLoader mai optimizat
+    loader_kwargs = {
+        "batch_size": args.batch_size,
+        "num_workers": 4 if device.type == "cuda" else 0,
+        "pin_memory": device.type == "cuda",
+    }
+
+    train_loader = DataLoader(train_ds, shuffle=True, **loader_kwargs)
+    valid_loader = DataLoader(valid_ds, shuffle=False, **loader_kwargs)
+    test_loader = DataLoader(test_ds, shuffle=False, **loader_kwargs)
 
     optimizer = torch.optim.AdamW(
         model.parameters(),
@@ -351,6 +372,9 @@ def run_bert_multilabel(args):
     best_epoch = -1
     best_model_path = os.path.join(args.output_dir, "best_model.pt")
 
+    use_amp = (device.type == "cuda")
+    scaler = GradScaler() if use_amp else None
+
     print("=== Training ===")
     for epoch in range(1, args.epochs + 1):
         print(f"\nEpoch {epoch}/{args.epochs}")
@@ -362,6 +386,8 @@ def run_bert_multilabel(args):
             scheduler,
             device,
             loss_fn,
+            use_amp=use_amp,
+            scaler=scaler,
         )
 
         val_loss, val_micro_f1, val_macro_f1 = eval_model(
@@ -407,11 +433,28 @@ def run_bert_multilabel(args):
 
     print(f"\nBest epoch: {best_epoch} with Val micro F1 = {best_val_micro_f1:.4f}")
 
-    # Load best model for final test evaluation
-    print("=== Loading best model for test evaluation ===")
+    # Load best model for final evaluation
+    print("=== Loading best model for final evaluation (train/valid/test) ===")
     ckpt = torch.load(best_model_path, map_location=device)
     model.load_state_dict(ckpt["model_state_dict"])
     model.to(device)
+
+    # Ca să "vezi clar dacă a învățat" -> evaluăm pe train, valid, test cu best model
+    train_loss_best, train_micro_f1_best, train_macro_f1_best = eval_model(
+        model,
+        train_loader,
+        device,
+        loss_fn,
+        threshold=args.threshold,
+    )
+
+    val_loss_best, val_micro_f1_best, val_macro_f1_best = eval_model(
+        model,
+        valid_loader,
+        device,
+        loss_fn,
+        threshold=args.threshold,
+    )
 
     test_loss, test_micro_f1, test_macro_f1 = eval_model(
         model,
@@ -423,7 +466,12 @@ def run_bert_multilabel(args):
 
     metrics = {
         "best_epoch": best_epoch,
-        "val_best_micro_f1": best_val_micro_f1,
+        "train_loss_best": train_loss_best,
+        "train_micro_f1_best": train_micro_f1_best,
+        "train_macro_f1_best": train_macro_f1_best,
+        "val_loss_best": val_loss_best,
+        "val_micro_f1_best": val_micro_f1_best,
+        "val_macro_f1_best": val_macro_f1_best,
         "test_loss": test_loss,
         "test_micro_f1": test_micro_f1,
         "test_macro_f1": test_macro_f1,
@@ -432,7 +480,7 @@ def run_bert_multilabel(args):
     with open(os.path.join(args.output_dir, "metrics.json"), "w") as f:
         json.dump(metrics, f, indent=2)
 
-    print("\n=== Test metrics ===")
+    print("\n=== Final metrics (best model) ===")
     print(json.dumps(metrics, indent=2))
 
 
@@ -452,7 +500,8 @@ def parse_args():
 
     parser.add_argument("--output_dir", type=str, default="outputs_bert_multilabel")
 
-    parser.add_argument("--epochs", type=int, default=5)
+    # 20 epoci by default
+    parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--batch_size", type=int, default=16)
     parser.add_argument("--lr", type=float, default=2e-5)
     parser.add_argument("--weight_decay", type=float, default=0.01)
