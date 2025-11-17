@@ -1,0 +1,10 @@
+{
+  "best_val_micro_f1": 0.4192131016576793,
+  "optimal_threshold": 0.5000000000000001,
+  "test_loss_default": 0.16886967474222184,
+  "test_micro_f1_default": 0.4183373517851835,
+  "test_macro_f1_default": 0.16109508293770994,
+  "test_loss_optimal": 0.16886967474222184,
+  "test_micro_f1_optimal": 0.4183373517851835,
+  "test_macro_f1_optimal": 0.16109508293770994
+}
