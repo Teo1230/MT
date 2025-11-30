@@ -1,0 +1,3452 @@
+[
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4090316977854972,
+    "best_epoch": 17,
+    "run_id": 1,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4082086293811773,
+    "best_epoch": 19,
+    "run_id": 2,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.40573561186407386,
+    "best_epoch": 17,
+    "run_id": 3,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4051663405088063,
+    "best_epoch": 17,
+    "run_id": 4,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3964570558294257,
+    "best_epoch": 20,
+    "run_id": 5,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3984792681477961,
+    "best_epoch": 13,
+    "run_id": 6,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3982610795797609,
+    "best_epoch": 16,
+    "run_id": 7,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39844843443835726,
+    "best_epoch": 16,
+    "run_id": 8,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3972971852588816,
+    "best_epoch": 19,
+    "run_id": 9,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3975593558027561,
+    "best_epoch": 19,
+    "run_id": 10,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39611524239099516,
+    "best_epoch": 15,
+    "run_id": 11,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39678927551822585,
+    "best_epoch": 15,
+    "run_id": 12,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3837238389060285,
+    "best_epoch": 19,
+    "run_id": 13,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3801778907242694,
+    "best_epoch": 17,
+    "run_id": 14,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.38794112727880914,
+    "best_epoch": 19,
+    "run_id": 15,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3891588471849866,
+    "best_epoch": 19,
+    "run_id": 16,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4066550742965539,
+    "best_epoch": 12,
+    "run_id": 17,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4074484067367755,
+    "best_epoch": 14,
+    "run_id": 18,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4059794806027573,
+    "best_epoch": 14,
+    "run_id": 19,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4075173095944609,
+    "best_epoch": 16,
+    "run_id": 20,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3986534653465347,
+    "best_epoch": 15,
+    "run_id": 21,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39759228254803475,
+    "best_epoch": 17,
+    "run_id": 22,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3958702762343855,
+    "best_epoch": 18,
+    "run_id": 23,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.40266117535244733,
+    "best_epoch": 16,
+    "run_id": 24,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3966797363810795,
+    "best_epoch": 18,
+    "run_id": 25,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3968578676049423,
+    "best_epoch": 14,
+    "run_id": 26,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39809926082365366,
+    "best_epoch": 18,
+    "run_id": 27,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3939318162874052,
+    "best_epoch": 13,
+    "run_id": 28,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3847502922999833,
+    "best_epoch": 20,
+    "run_id": 29,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3847915712322492,
+    "best_epoch": 17,
+    "run_id": 30,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3949398589796765,
+    "best_epoch": 18,
+    "run_id": 31,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3884958345543601,
+    "best_epoch": 17,
+    "run_id": 32,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.40291573213713555,
+    "best_epoch": 20,
+    "run_id": 33,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4058521602069272,
+    "best_epoch": 20,
+    "run_id": 34,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4010652033570045,
+    "best_epoch": 15,
+    "run_id": 35,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4008878127522195,
+    "best_epoch": 15,
+    "run_id": 36,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.394439476465328,
+    "best_epoch": 19,
+    "run_id": 37,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39692044482463645,
+    "best_epoch": 19,
+    "run_id": 38,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39890069918764903,
+    "best_epoch": 13,
+    "run_id": 39,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3957894736842105,
+    "best_epoch": 19,
+    "run_id": 40,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.39264112903225806,
+    "best_epoch": 19,
+    "run_id": 41,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3939368562096977,
+    "best_epoch": 19,
+    "run_id": 42,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3937494706530025,
+    "best_epoch": 15,
+    "run_id": 43,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3957653360113817,
+    "best_epoch": 17,
+    "run_id": 44,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3792810401971616,
+    "best_epoch": 19,
+    "run_id": 45,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.3782758911266537,
+    "best_epoch": 14,
+    "run_id": 46,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.38488175675675673,
+    "best_epoch": 18,
+    "run_id": 47,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.38297510108533733,
+    "best_epoch": 20,
+    "run_id": 48,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.4076110954999799,
+    "best_epoch": 19,
+    "run_id": 49,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "bert-base-romanian",
+      "model_name": "dumitrescustefan/bert-base-romanian-cased-v1",
+      "type": "bert"
+    },
+    "best_val_f1": 0.40648237956676364,
+    "best_epoch": 15,
+    "run_id": 50,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3903916362429472,
+    "best_epoch": 20,
+    "run_id": 51,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.39128986593388293,
+    "best_epoch": 18,
+    "run_id": 52,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38544142962537914,
+    "best_epoch": 12,
+    "run_id": 53,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38681771369721935,
+    "best_epoch": 17,
+    "run_id": 54,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.37847251015838795,
+    "best_epoch": 16,
+    "run_id": 55,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3811093711365697,
+    "best_epoch": 17,
+    "run_id": 56,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38153642164581086,
+    "best_epoch": 14,
+    "run_id": 57,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3809959265109319,
+    "best_epoch": 15,
+    "run_id": 58,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3705821205821206,
+    "best_epoch": 18,
+    "run_id": 59,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36552839840846485,
+    "best_epoch": 20,
+    "run_id": 60,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36785282432198996,
+    "best_epoch": 20,
+    "run_id": 61,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3716890636477553,
+    "best_epoch": 19,
+    "run_id": 62,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3603169738627906,
+    "best_epoch": 18,
+    "run_id": 63,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3592724710441714,
+    "best_epoch": 20,
+    "run_id": 64,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.35809557459588376,
+    "best_epoch": 20,
+    "run_id": 65,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36352514527897933,
+    "best_epoch": 17,
+    "run_id": 66,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.39290710112729366,
+    "best_epoch": 18,
+    "run_id": 67,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38938492063492064,
+    "best_epoch": 18,
+    "run_id": 68,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3866892366128566,
+    "best_epoch": 17,
+    "run_id": 69,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38990825688073394,
+    "best_epoch": 14,
+    "run_id": 70,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3838771593090211,
+    "best_epoch": 18,
+    "run_id": 71,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3802473290148902,
+    "best_epoch": 19,
+    "run_id": 72,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38296115903743755,
+    "best_epoch": 18,
+    "run_id": 73,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3803256840614718,
+    "best_epoch": 16,
+    "run_id": 74,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3664422488414794,
+    "best_epoch": 20,
+    "run_id": 75,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3751027293568061,
+    "best_epoch": 17,
+    "run_id": 76,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3713472976467546,
+    "best_epoch": 20,
+    "run_id": 77,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3722394755003451,
+    "best_epoch": 19,
+    "run_id": 78,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.35187397672463383,
+    "best_epoch": 19,
+    "run_id": 79,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.35119918428869085,
+    "best_epoch": 18,
+    "run_id": 80,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.35808388406548314,
+    "best_epoch": 18,
+    "run_id": 81,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3598804500703235,
+    "best_epoch": 19,
+    "run_id": 82,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3843683530049631,
+    "best_epoch": 18,
+    "run_id": 83,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3845893883068604,
+    "best_epoch": 18,
+    "run_id": 84,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38219960795762603,
+    "best_epoch": 19,
+    "run_id": 85,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3819997471874605,
+    "best_epoch": 19,
+    "run_id": 86,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3799152542372881,
+    "best_epoch": 19,
+    "run_id": 87,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3754099739298629,
+    "best_epoch": 14,
+    "run_id": 88,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3764174233231516,
+    "best_epoch": 16,
+    "run_id": 89,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.38006756756756754,
+    "best_epoch": 15,
+    "run_id": 90,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36244926769013586,
+    "best_epoch": 19,
+    "run_id": 91,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36600204271948134,
+    "best_epoch": 18,
+    "run_id": 92,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36399964479175917,
+    "best_epoch": 20,
+    "run_id": 93,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.36507042253521127,
+    "best_epoch": 14,
+    "run_id": 94,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3555302266450397,
+    "best_epoch": 18,
+    "run_id": 95,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.34960159362549803,
+    "best_epoch": 19,
+    "run_id": 96,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3511856460192949,
+    "best_epoch": 20,
+    "run_id": 97,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3574658607566599,
+    "best_epoch": 20,
+    "run_id": 98,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3876529711089617,
+    "best_epoch": 19,
+    "run_id": 99,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "distilbert-base-multilingual",
+      "model_name": "distilbert-base-multilingual-cased",
+      "type": "distilbert"
+    },
+    "best_val_f1": 0.3849813115868162,
+    "best_epoch": 16,
+    "run_id": 100,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.40617352174942767,
+    "best_epoch": 17,
+    "run_id": 101,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4061838373347182,
+    "best_epoch": 16,
+    "run_id": 102,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4059107836146106,
+    "best_epoch": 16,
+    "run_id": 103,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4081085344691592,
+    "best_epoch": 15,
+    "run_id": 104,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.38947113834247016,
+    "best_epoch": 18,
+    "run_id": 105,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3948535936113576,
+    "best_epoch": 13,
+    "run_id": 106,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.39925741596555675,
+    "best_epoch": 17,
+    "run_id": 107,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.39631149205833366,
+    "best_epoch": 19,
+    "run_id": 108,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3722969521539247,
+    "best_epoch": 20,
+    "run_id": 109,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.390245925434413,
+    "best_epoch": 20,
+    "run_id": 110,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.38464087482395826,
+    "best_epoch": 17,
+    "run_id": 111,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.37645164024752054,
+    "best_epoch": 17,
+    "run_id": 112,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3643097063129791,
+    "best_epoch": 20,
+    "run_id": 113,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.35606816112387807,
+    "best_epoch": 19,
+    "run_id": 114,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.37174752392143695,
+    "best_epoch": 17,
+    "run_id": 115,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.360924424402723,
+    "best_epoch": 17,
+    "run_id": 116,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.40420222186443405,
+    "best_epoch": 15,
+    "run_id": 117,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4061651493371666,
+    "best_epoch": 18,
+    "run_id": 118,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4105502786717953,
+    "best_epoch": 20,
+    "run_id": 119,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.41076399628827714,
+    "best_epoch": 13,
+    "run_id": 120,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3946499073402627,
+    "best_epoch": 19,
+    "run_id": 121,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3942725023323733,
+    "best_epoch": 13,
+    "run_id": 122,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3988935214881334,
+    "best_epoch": 17,
+    "run_id": 123,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3997256626457417,
+    "best_epoch": 18,
+    "run_id": 124,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.38372486057123545,
+    "best_epoch": 19,
+    "run_id": 125,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3731668733165163,
+    "best_epoch": 20,
+    "run_id": 126,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.38170726646470515,
+    "best_epoch": 19,
+    "run_id": 127,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.38001934154648276,
+    "best_epoch": 20,
+    "run_id": 128,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3703392677191804,
+    "best_epoch": 18,
+    "run_id": 129,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.35972528184527663,
+    "best_epoch": 17,
+    "run_id": 130,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3735144312393888,
+    "best_epoch": 19,
+    "run_id": 131,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.2,
+      "attention_dropout": 0.1,
+      "weight_decay": 0.03,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3691899070385126,
+    "best_epoch": 19,
+    "run_id": 132,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3980653552267924,
+    "best_epoch": 19,
+    "run_id": 133,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.40085200507926105,
+    "best_epoch": 17,
+    "run_id": 134,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4027604019532669,
+    "best_epoch": 20,
+    "run_id": 135,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4030026374518158,
+    "best_epoch": 15,
+    "run_id": 136,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3909216852742238,
+    "best_epoch": 20,
+    "run_id": 137,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.39341187981572834,
+    "best_epoch": 14,
+    "run_id": 138,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3909411090179376,
+    "best_epoch": 20,
+    "run_id": 139,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 16,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.39069957169080155,
+    "best_epoch": 17,
+    "run_id": 140,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3743076724915203,
+    "best_epoch": 20,
+    "run_id": 141,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.373375922648595,
+    "best_epoch": 19,
+    "run_id": 142,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3843347729464548,
+    "best_epoch": 20,
+    "run_id": 143,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.0,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3789044239513833,
+    "best_epoch": 20,
+    "run_id": 144,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.362046463064474,
+    "best_epoch": 20,
+    "run_id": 145,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3581326866447255,
+    "best_epoch": 16,
+    "run_id": 146,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3680332842160007,
+    "best_epoch": 20,
+    "run_id": 147,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.01,
+      "batch_size": 32,
+      "label_smoothing": 0.05,
+      "focal_gamma": 2.0,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.3623411459478475,
+    "best_epoch": 18,
+    "run_id": 148,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "linear"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.40379447927693185,
+    "best_epoch": 19,
+    "run_id": 149,
+    "success": true
+  },
+  {
+    "config": {
+      "lr": 1e-05,
+      "hidden_dropout": 0.3,
+      "attention_dropout": 0.15,
+      "weight_decay": 0.03,
+      "batch_size": 16,
+      "label_smoothing": 0.0,
+      "focal_gamma": 1.5,
+      "focal_alpha": 0.25,
+      "classifier_lr_multiplier": 10.0,
+      "scheduler_type": "cosine"
+    },
+    "model_config": {
+      "name": "xlm-roberta-base",
+      "model_name": "xlm-roberta-base",
+      "type": "roberta"
+    },
+    "best_val_f1": 0.4029023316484592,
+    "best_epoch": 16,
+    "run_id": 150,
+    "success": true
+  }
+]
